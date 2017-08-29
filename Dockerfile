@@ -3,7 +3,7 @@ MAINTAINER Sinan Goo
 
 RUN apk update 
 RUN apk --no-cache add git
-RUN git clone --branch 1.1.0 https://github.com/nasoym/bss.git
+RUN git clone --branch 1.1.4 https://github.com/nasoym/bss.git
 
 RUN apk --no-cache add socat bash jq curl sed openssl
 
